@@ -26,7 +26,9 @@ Destinos
 -
 
 página que especifica os destinos. são 6 no total e baseados em lugares que existem na vida real. são eles: paris, lisboa, colorado, orlando, tóquio e pequim.
+
 Contato
 -
 
 página que especifica os contatos da empresa. com e-mail, telefone, endereço e 5 redes sociais sendo elas: facebook, instagram, linkedin, threads e youtube. Porém, nenhuma delas possui links funcionais. 
+
