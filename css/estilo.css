@@ -62,11 +62,62 @@ h1{
 	backdrop-filter: blur(12px);
 }
 
+.conic-progress{
+	background: conic-gradient(turquoise 90%, green 40%);
+	padding: 1em;
+	width:4em;
+	border-radius: 50%;
+}
+
+.conic-progress div{
+	display: block;
+	background: #fff;
+	text-align: center;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.circle{
+	border-radius: 50%;
+	width: 2em;
+	height: 2em;
+}
+
+.start-menu ul li{
+	list-style: none;
+	margin: 0.5em;
+}
+
+.start-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em
+}
+
 .start-menu ul li a{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position:relative;
+}
+
+.start-menu ul li a::after{
+    content: "";
+    position:absolute;
+	bottom: -0.25em;
+    width: 0%;
+    height: 4px;
+    background: #fff;
+    margin-top: 0.5em;
+	transition: width 0.2s ease-in;
+}
+
+.start-menu ul li a:hover::after{
+    width:100%;
 }
 
 .start-menu ul{
@@ -81,6 +132,47 @@ h1{
 .bem-vindo{
 	background: url("../images/Hawaii.webp");
 	background-size: cover;
+}
+
+.text-card{
+	background: #fff;
+	margin: 1em;
+	border-radius: 0.5em;
+	padding: 0;
+	overflow:hidden;
+}
+
+.urgency-title{
+	background: linear-gradient(to right, #e44, #500);
+	width:100%;
+	text-align:center;
+	padding: 1em;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: #fff;
+	margin:0;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-row-center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .flex-row-spaced-between{
