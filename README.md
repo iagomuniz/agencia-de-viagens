@@ -1,6 +1,8 @@
 # agencia-de-viagens
 um site estático de uma agencia de viagens fictícia chamada Easy-Trip. Qualquer marca de viagens que se chame "Easy-Trip" na vida rela é mera coincidência. E não está associada à essa Easy-Trip fictícia daqui.
 
+Esse site possui o método de dessnvolvimento mobile-first com responsividade. Vale ressaltar que isso significa que coisas (como ícones) podem não estar visíveis de versão para versão. Isso por incrível que pareça foi pensado para ser assim e não se trata de um bug, conteúdo não usado ou qualquer coisa parecida, isso é só para o design não ficar com problemas de largura e posição de elementos na versão mobile (que ficariam bem presentes caso icones não forem usados)
+
 # Imagens do site
 
 <img src = "images/screenshots/img1.jpg" alt="pagina_inicial_desktop">
