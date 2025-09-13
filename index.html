@@ -6,16 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "icon" href = "images/logotype.png"/>
 	<title>Easy-Trip</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Fontdiner+Swanky&family=Joti+One&family=Rubik+Moonrocks&family=Slackey&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/gerais.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/estilo_inicio.css">
+	<link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
-	<h1></h1>
-	<nav class = "flex-row-spaced-between start-menu blurred resposive-menu-positioning top fixed">
+	<nav class = "flex-row-spaced-between start-menu blurred">
 	  <img class = "icon-medium" src = "images/logotype.png">
 		<ul class = "flex-row-spaced no-decoration">
 			<li>
@@ -51,23 +48,22 @@
 		</ul>
 	</nav>
 	<!-- Project -->
-	<header class="bem-vindo flex-column fit-to-viewport">
-		<h1 class = "pseudo-logo">Easy-Trip</h1>
-		<p class = "subtitulo">Seja bem-vindo</p>
-		<a class = "button-look std-margin-top" href = "#welcome">Começar</a>
-		
+	<header class="bem-vindo flex-column">
+		<h1 class = "story-script-regular">
+		  Easy-trip
+		</h1>
+		<p>Suas proximas férias, aqui!</p>
+		<div class = "photo-collage">
+		  <img class = "paisagem_1" src = "images/Paradisiaco.jpg">
+		  <img class = "paisagem_2" src = "images/rio_de_janeiro.jpg">
+		  <img class = "paisagem_1" src = "images/Praia2.jpg">
+		</div>
 	</header>
-	<div id="welcome"class = "nav_blankSpace"></div>
 	<main class = "text-boxes flex-responsive">
-		<section class = "text-card">
+		<section>
 			<h2>Bem-vindo</h2>
 			<p>Agradecemos sua visita. Esse é o site oficial da Easy-trip, aqui você encontrará promoções para visitar vários lugares que irão te fazer sentir os mais diversos sentimentos. Entrar em contato com o outro é fundamental para seu desenvolvimento como pessoa e para manutenção da saúde, garantindo vivências e experiências inesquecíveis. Ou até mesmo perceber que talvez esse outro seja você. O nosso compromisso é trazer você do ponto A ao B ao A da forma mais confortável possível. Está esperando o quê para viajar conosco?</p>
 			<p><a class="button-look" href = "destinos.html">conferir destinos</a></p>
-			<div class = "client-satisfaction conic-progress flex-centered">
-				<div class = "circle flex-centered">90%</div>
-			</div>
-			9 em cada 10 clientes recomendam a Easy-trip para seus amigos e familiares.
-
 		</section>
 		<section>
 			<h2>3 motivos para viajar</h2>
@@ -82,22 +78,23 @@
 	</main>
 	<section class = "text-card flex-column">
 		<h2 class = "urgency-title">Promoção Relampago!</h2>
-		<p><strong>Uma nova promoção apareceu! reserve agora mesmo!</strong></p>
-		<div class = "grid">
-			<section class="place-card">
-				<h2>Lisboa Encantadora</h2>
+		<div class = "std-padding">
+			<p class = "centered-text"><strong>Uma nova promoção apareceu! reserve agora mesmo!</strong></p>
+			<div class = "grid">
+				<section class="promo-card">
+					<h2>Lisboa Encantadora</h2>
 				<p>Promoção relâmpago: 5 noites em Lisboa com voo incluso por preço imperdível. Reserve até sexta-feira e ganhe um jantar em restaurante típico.<br/><span class="badge">Relâmpago</span></p>
-			</section>
-			<section class="price-tag">
-				<h2>Pacote total+desconto</h2>
-				<p>de: <s>2.500,00</s></p>
-				<h3>1.500,00</h3>
-			</section>
+				</section>
+				<section class="price-tag">
+					<h2>Pacote total + desconto</h2>
+					<p>de: <s>2.500,00</s></p>
+					<h3 class = "no-margin final-price" style = "color: #e44; font-size: 2em">1.500,00</h3>
+				</section>
+			</div>
 		</div>
 	</section>
-</body>
-</html>
-		</div>
-	</section>
+	<footer class = "footered">
+		&copy Easy-Trip 2008-2025
+	</footer>
 </body>
 </html>
