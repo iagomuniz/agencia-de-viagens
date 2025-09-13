@@ -3,8 +3,8 @@ um site estático de uma agencia de viagens fictícia chamada Easy-Trip. Qualque
 
 # Imagens do site
 
-<img src = "screenshots/img1.jpg" alt="pagina_inicial_desktop">
-<img src = "screenshots/img2.jpg" alt = "pagina_inicial_mobile">
+<img src = "images/screenshots/img1.jpg" alt="pagina_inicial_desktop">
+<img src = "images/screenshots/img2.jpg" alt = "pagina_inicial_mobile">
 
 # Páginas
 
@@ -28,7 +28,7 @@ Destinos
 
 página que especifica os destinos. são 6 no total e baseados em lugares que existem na vida real. são eles: paris, lisboa, colorado, orlando, tóquio e pequim.
 
-Contato
+Contatos
 -
 
 página que especifica os contatos da empresa. com e-mail, telefone, endereço e 5 redes sociais sendo elas: facebook, instagram, linkedin, threads e youtube. Porém, nenhuma delas possui links funcionais. 
